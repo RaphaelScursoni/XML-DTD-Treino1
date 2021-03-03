@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Campeonatos SYSTEM "Campeonatos.dtd">
+<campeonato>
+    <panamericano>
+        <competidor Pais="Estados Unidos">
+            <posicao>1</posicao>
+            <ouro>103</ouro>
+            <prata>81</prata>
+            <bronze>81</bronze>
+        </competidor>
+        <competidor Pais="Canadá">
+            <posicao>2</posicao>
+            <ouro>78</ouro>
+            <prata>69</prata>
+            <bronze>70</bronze>
+        </competidor>
+        <competidor Pais="Brasil">
+            <posicao>3</posicao>
+            <ouro>41</ouro>
+            <prata>40</prata>
+            <bronze>60</bronze>
+        </competidor>
+        <competidor Pais="Cuba">
+            <posicao>4</posicao>
+            <ouro>36</ouro>
+            <prata>27</prata>
+        </competidor>
+        <competidor Pais="Colombia">
+            <posicao>5</posicao>
+            <ouro>27</ouro>
+            <bronze>2</bronze>
+        </competidor>        
+    </panamericano>
+</campeonato>

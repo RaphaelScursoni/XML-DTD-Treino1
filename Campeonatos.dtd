@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT campeonato (panamericano)>
+<!ELEMENT panamericano (competidor+)>
+<!ATTLIST competidor Pais CDATA #REQUIRED>
+<!ELEMENT competidor (posicao+, ouro, prata?, bronze?)>
+<!ELEMENT posicao (#PCDATA)+>
+<!ATTLIST posicao (1|2|3|4|5)>
+<!ELEMENT ouro (#PCDATA)>
+<!ELEMENT prata (#PCDATA)>
+<!ELEMENT bronze (#PCDATA)>
